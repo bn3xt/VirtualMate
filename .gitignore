@@ -1,0 +1,72 @@
+# VirtualMate local runtime data (may contain private knowledge and model settings)
+/data/
+/workspace/
+/logs/
+/corporate-ca.pem
+/persona.md
+/avatar.png
+oscar.png
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+KEY*.txt
+*.pem
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+playwright-report/
+test-results/
+blob-report/
+
+# Packaging and generated artifacts
+/build/
+/dist/
+/artifacts/
+*.zip
+*.exe
+*.msi
+
+# Temporary local material
+.tmp/
+.tmp_*/
+.tmp-export-runtime/
+.package-preserve*/
+/standalone/
+*.tmp
+*.temp
+*.bak
+*.log
+
+# IDE and operating system
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
